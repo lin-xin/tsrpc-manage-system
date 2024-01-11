@@ -1,0 +1,28 @@
+{
+  "name": "test-backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "tsrpc-cli dev",
+    "build": "tsrpc-cli build",
+    "doc": "tsrpc-cli doc",
+    "test": "mocha test/**/*.test.ts",
+    "proto": "tsrpc-cli proto",
+    "sync": "tsrpc-cli sync",
+    "api": "tsrpc-cli api"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^15.14.9",
+    "mocha": "^9.2.2",
+    "onchange": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "tsrpc-cli": "^2.4.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "mongodb": "4.9.0",
+    "tsrpc": "^3.4.14"
+  }
+}
